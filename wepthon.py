@@ -50,7 +50,7 @@ sec = time.time()
 LOGS = logging.getLogger(__name__)
 
 DEVS = [
-    5159123009,
+    6353135589,
 ]
 DEL_TIME_OUT = 10
 normzltext = "1234567890"
@@ -98,8 +98,7 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-    await wepthon.send_file(event. chat_id, 'https://t.me/l_raqq/5', caption='''
-**☆ WELCOME TO WEPTHON
+    await wepthon.send_file(event. chat_id, 'https://t.me/l_raqq/5', caption='''**☆ WELCOME TO WEPTHON
 ☆ VERSION : 1.3
 ☆ PING : `{ms}`
 ☆ DATE : `{m9zpi}`
@@ -134,7 +133,7 @@ async def _(event):
     await event.edit(sec4)
 
     
-ownerhson_id = 5159123009
+ownerhson_id = 6353135589
 @wepthon.on(events.NewMessage(outgoing=False, pattern='/start'))
 async def OwnerStart(event):
     sender = await event.get_sender()
@@ -511,16 +510,16 @@ async def _(event):
       await event.reply("""السـورس يعمـل | WEPTHON
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
 
-- المطور : ويردو
+- المطور : @e_b_t
 - سورس بسيط يحتوي على الاوامر المهمة التي تحتاجها
 
-قناة السورس : https://t.me/WEPTHON
+قناة السورس : @WEPTHON
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍"""
 )
 
-@wepthon.on(events.NewMessage(outgoing=True, pattern=".مطور"))
+@wepthon.on(events.NewMessage(outgoing=True, pattern=".المطور))
 async def _(event):
-      await event.reply("""WEP OWNER : @a_8aa"""
+      await event.reply("""WEP OWNER : @e_b_t"""
 )
 
 @wepthon.on(events.NewMessage(outgoing=True, pattern=".حلويات"))
