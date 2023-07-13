@@ -91,13 +91,16 @@ async def join_channel(event):
 async def _(event):
     await event.edit(commands)
 
+await event.client.send_file(
+                    event.chat_id,
+                    "https://t.me/l_raqq/5",
 @wepthon.on(events.NewMessage(outgoing=True, pattern=r"\.فحص"))
 async def _(event):
-    start = datetime.datetime.now()
-    await event.edit("جارٍ...")
-    end = datetime.datetime.now()
-    ms = (end - start).microseconds / 1000
-    await event.edit(f'''
+    start = datetime.datetime.now()
+    await event.edit("جارٍ...")
+    end = datetime.datetime.now()
+    ms = (end - start).microseconds / 1000
+    await event.edit(f'''
 **☆ WELCOME TO WEPTHON
 ☆ VERSION : 1.3
 ☆ PING : `{ms}`
