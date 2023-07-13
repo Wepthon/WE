@@ -97,8 +97,7 @@ async def _(event):
     await event.edit("جارٍ...")
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
-    await event.edit(f'''
-await wepthon.send_file(event. chat_id, 'https://t.me/l_raqq/5', caption='''**☆ WELCOME TO WEPTHON
+    await event.edit(f''' await wepthon.send_file(event. chat_id, 'https://t.me/l_raqq/5', caption='''**☆ WELCOME TO WEPTHON
 ☆ VERSION : 1.3
 ☆ PING : `{ms}`
 ☆ DATE : `{m9zpi}`
